@@ -4,8 +4,7 @@ import { notifySxcPending } from '@/lib/telegram'
 import { createPancakeOrder } from '@/lib/pancake'
 import { generateSxcRef, buildQRPayload } from '@/lib/sepay'
 
-// TODO: CÀI GIÁ THẬT VÀO ĐÂY
-const PRICE = 85000
+const PRICE = 139000
 const PRODUCT_KEY = 'set-xoi-com'
 const PRODUCT_LABEL = 'Sét Nguyên Liệu Xôi Cốm Sen Dừa Bếp Cô Hạ'
 
