@@ -175,6 +175,7 @@ function OrderForm({ compact = false }: { compact?: boolean }) {
         <p className="text-green-200 text-xs font-semibold mb-0.5">Sét Nguyên Liệu Xôi Cốm Sen Dừa</p>
         <p className="text-4xl font-extrabold">{fmt(PRICE)}<span className="text-lg font-normal">/sét</span></p>
         <p className="text-green-300 text-xs mt-1">✓ Kèm công thức bí quyết · ✓ Giao toàn quốc · ✓ COD</p>
+        <p className="mt-2 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block">⚠️ Chưa bao gồm phí vận chuyển</p>
       </div>
 
       {/* Quantity */}
@@ -704,6 +705,7 @@ export default function SetXoiCom() {
                     <p className="text-green-300 text-sm">Giá chỉ</p>
                     <p className="text-4xl font-extrabold">{fmt(PRICE)}</p>
                     <p className="text-green-300 text-xs">/sét nguyên liệu</p>
+                    <p className="mt-2 bg-red-500 text-white text-xs font-bold px-2.5 py-1 rounded-full inline-block">⚠️ Chưa bao gồm phí ship</p>
                   </div>
                   <div className="text-right">
                     <p className="text-xs text-green-300">COD – trả khi nhận</p>
