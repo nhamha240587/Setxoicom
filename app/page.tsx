@@ -45,7 +45,6 @@ const FEEDBACKS = [
 ]
 
 const UY_TIN = [
-  { src: UT + 'z7730295670885_99988c6c25c064abd59e3e9617ff8726.jpg', label: 'Kênh Facebook Bếp Cô Hạ' },
   { src: UT + 'z7730296537408_96f9db97736016c93f9a740985d04d41.jpg', label: 'Cộng đồng Hacofood' },
   { src: UT + 'z7730296545695_e2cd4f391ad3a8ae76f1e8d8d6651042.jpg', label: 'TikTok & YouTube viral' },
   { src: UT + 'z7730387539278_d0ddcc6f279597ec3196aeae9a0af2ec.jpg', label: 'Hàng triệu lượt xem' },
