@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Sét Xôi Cốm Bếp Cô Hạ – Đặc Sản Hà Nội Giao Tận Nhà',
-  description: 'Sét Xôi Cốm Bếp Cô Hạ – xôi cốm Mễ Trì truyền thống, gói lá sen thơm mát. Quà biếu sang trọng, giao tận nhà toàn quốc.',
+  title: 'Sét Nguyên Liệu Xôi Cốm Sen Dừa Bếp Cô Hạ – Mua Về Làm Là Thành Công',
+  description: 'Sét Nguyên Liệu Xôi Cốm Sen Dừa Bếp Cô Hạ – 9 nguyên liệu chọn sẵn, kèm công thức bí quyết. Làm theo là thành công. Giao tận nhà toàn quốc.',
   openGraph: {
-    title: 'Sét Xôi Cốm Bếp Cô Hạ',
-    description: 'Xôi cốm Mễ Trì truyền thống, gói lá sen thơm mát. Giao tận nhà toàn quốc.',
+    title: 'Sét Nguyên Liệu Xôi Cốm Sen Dừa – Bếp Cô Hạ',
+    description: 'Nguyên liệu chọn sẵn đủ bộ, kèm công thức bí quyết. Mua về làm là thành công ngay lần đầu.',
     locale: 'vi_VN',
     type: 'website',
   },
