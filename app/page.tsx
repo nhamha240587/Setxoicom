@@ -628,9 +628,9 @@ export default function SetXoiCom() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
             {UY_TIN.map(img => (
-              <div key={img.label} className="rounded-2xl overflow-hidden shadow-md bg-white border border-gray-100">
+              <div key={img.label} className="rounded-2xl overflow-hidden shadow-md bg-white border border-gray-100 flex flex-col">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={img.src} alt={img.label} className="w-full h-44 object-cover object-top" />
+                <img src={img.src} alt={img.label} className="w-full h-auto object-contain" />
                 <p className="text-center text-xs font-semibold text-gray-600 py-2 px-2 leading-tight">{img.label}</p>
               </div>
             ))}
