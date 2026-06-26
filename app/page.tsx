@@ -434,6 +434,35 @@ export default function SetXoiCom() {
         </div>
       </section>
 
+      {/* ══ VIDEO XEM THỰC TẾ ══ */}
+      <section className="py-14 px-4 sm:px-6 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <span className="inline-block border border-[#B8E08A] bg-[#F0FBE8] text-[#3F6B2E] font-bold text-xs px-4 py-1.5 rounded-full tracking-widest mb-3">XEM THỰC TẾ</span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-2">
+            Cô Hạ Hướng Dẫn Trực Tiếp<br />
+            <span className="text-[#C9832E]">Xem Ngay – Làm Là Biết</span>
+          </h2>
+          <p className="text-gray-500 text-sm mb-8">Video thực tế từ Bếp Cô Hạ – thấy nguyên liệu, thấy thành phẩm, thấy luôn cách làm</p>
+          <div className="flex justify-center">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-[#3F6B2E]/20 w-full max-w-xs" style={{ aspectRatio: '9/16' }}>
+              <iframe
+                src="https://www.youtube.com/embed/_jXu55_QWng?rel=0&modestbranding=1"
+                title="Xôi Cốm Sen Dừa – Bếp Cô Hạ"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </div>
+          <div className="mt-8">
+            <button onClick={scrollToOrder} className="bg-gradient-to-r from-[#C9832E] to-[#A0601A] text-white font-bold px-8 py-3.5 rounded-2xl shadow-md hover:shadow-lg transition-all active:scale-95">
+              Đặt Sét Nguyên Liệu Ngay →
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* ══ CÔ HẠ – NGƯỜI ĐỨNG SAU SẾT ══ */}
       <section className="py-14 px-4 sm:px-6 bg-white">
         <div className="max-w-5xl mx-auto">
