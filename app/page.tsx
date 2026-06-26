@@ -626,12 +626,14 @@ export default function SetXoiCom() {
               <span className="text-[#C9832E]">Trên Khắp Các Nền Tảng</span>
             </h2>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-3 gap-5 mb-8 max-w-3xl mx-auto">
             {UY_TIN.map(img => (
               <div key={img.label} className="rounded-2xl overflow-hidden shadow-md bg-white border border-gray-100 flex flex-col">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={img.src} alt={img.label} className="w-full h-auto object-contain" />
-                <p className="text-center text-xs font-semibold text-gray-600 py-2 px-2 leading-tight">{img.label}</p>
+                <div className="h-52 sm:h-64 flex items-center justify-center bg-gray-50 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={img.src} alt={img.label} className="w-full h-full object-cover object-top" />
+                </div>
+                <p className="text-center text-xs font-semibold text-gray-600 py-2.5 px-2 leading-tight">{img.label}</p>
               </div>
             ))}
           </div>
